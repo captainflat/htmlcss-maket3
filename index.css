@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.header_header {
+    background-image: url(./img/header_eagle.jpg);
+    position: relative;    
+    height: 1000px;
+    width: 1920px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_header:after {
+    content: "";   
+    height: 1000px;
+    width: 1920px;  
+    position: absolute;
+    top: 0;      
+    left: 0;   
+    background: transparent;
+    background-image: linear-gradient(to top, #f1d98a, #e98283);
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.header_section {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    left: 360px;
+    z-index: 3;
+}
+
+.header_section_logo {
+    width: 111px;
+    height: 100px;
+    z-index: 3;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.header_section_nav {
+    width: 625px;
+    height: 100px;
+    display: flex;
+    margin-left: 460px;
+    z-index: 3;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    left: 461px;
+    width: 625px;
+    height: 100px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav_item {
+    margin-left: 50px;
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav:first-child {
+    margin-left: 0;
+}
+
+.nav_item_icon {
+    margin-left: 34;
+    padding-top: 21px;
+    margin: 0 auto;
+}
+
+.nav_item a:hover {
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+}
+
+.nav_item_icon a:hover{
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+}
+
+.header_name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;
+    z-index: 3;
+}
+
+.header_name_p {
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 auto;
+    font-size: 70px;
+}
+
+.header_name_h {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 140px;
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.header_name_button {
+    margin: 0 auto;
+    background-color: transparent;
+    width: 155px;
+    height: 38px;
+    border: 3px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_name_button:hover {
+    background-color: #fce38a;
+    cursor: pointer;
+}
