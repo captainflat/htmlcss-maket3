@@ -154,7 +154,7 @@ li {
 
 .section {
     width: 1200px;
-    height: 1400px;
+    height: 1600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -264,8 +264,281 @@ li {
 }
 
 .section_team_description {
-    margin-left: 52px;
+    margin-left: 150px;
     font-family: 'Roboto', sans-serif;
     color: #b3b3b3;
     text-align: center;
+    width: 965px;
+    margin-bottom: 90px;
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+}
+
+.container_list {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+}
+
+.container_list_items {
+    width: 379px;
+    height: 468px;
+    background-color: #95e1d3;
+}
+
+.container_list_items:hover .container_gradient{
+    display: block;
+}
+
+.container_list_items:hover .container_img1 {
+    right: 835px;
+    bottom: 145px;
+}
+
+.container_list_items:hover .container_img2 {
+    right: 425px;
+    bottom: 145px;
+}
+
+.container_list_items:hover .container_img3 {
+    right: 15px;
+    bottom: 145px;
+}
+
+.container_img1 {
+    background-image: url("../img/section_hover/first.jpg");
+    background-position: -110px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 379px;
+    height: 468px;
+    z-index: 3;
+    
+  }
+
+  .third  {
+      font-weight: bold;
+      text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+      position: absolute;
+      top: 480px;
+      margin-left: 120px;
+  }
+
+  .second_name {
+    font-weight: bold;
+    text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 480px;
+      margin-left: 80px;
+  }
+
+.second_name_span {
+    font-family: 'Roboto', sans-serif;
+    color: #b3b3b3;
+    position: absolute;
+    top: 530px;
+    margin-left: 118px;
+}
+
+  .third_span {
+    font-family: 'Roboto', sans-serif;
+    color: #b3b3b3;
+    position: absolute;
+    top: 530px;
+    margin-left: 170px;
+}
+
+.third_span1 {
+    font-family: 'Roboto', sans-serif;
+    color: #b3b3b3;
+    position: absolute;
+    top: 530px;
+    margin-left: 130px;
+}
+
+  .container_img2 {
+    background-image: url("../img/section_hover/second.jpg");
+    background-position: -125px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 379px;
+    height: 468px;
+    z-index: 3;
+    background-color: #95e1d3;
+  }
+
+  .container_img3 {
+    background-image: url("../img/section_hover/third.jpg");
+    background-position: -250px -10px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 379px;
+    height: 468px;
+    z-index: 3;
+    background-color: #95e1d3;
+  }
+
+.container_gradient {
+    display: none;
+    width: 379px;
+    height: 468px; 
+    position: absolute;
+    top: 0;      
+    left: 0;   
+    background: transparent;
+    background-image: linear-gradient(to top, #f1d98a, #e98283);
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.container_menu {
+    width: 379px;
+    height: 468px; 
+}
+
+.container_menu_list {
+    display: flex;
+    flex-direction: row;
+    width: 222px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 189px;
+}
+
+.container_menu_items, .container_menu_items1, .container_menu_items2, .container_menu_items3 {
+    width: 55px;
+    height: 55px;
+    background-color: #fce38a;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.container_menu_items {
+    background-image: url(./img/section_hover/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+}
+
+.container_menu_items:hover {
+    background-color: #f38181;
+    background-image: url(./img/section_hover/facebook-fff.png);
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+    z-index: 99;
+}
+
+.container_menu_items1 {
+    background-image: url(./img/section_hover/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+}
+
+.container_menu_items1:hover {
+    background-color: #f38181;
+    background-image: url(./img/section_hover/twitter-fff.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    z-index: 99;
+}
+
+.container_menu_items2 {
+    background-image: url(./img/section_hover/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+}
+
+.container_menu_items2:hover {
+    background-color: #f38181;
+    background-image: url(./img/section_hover/pinterest-fff.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    z-index: 99;
+}
+
+.container_menu_items3 {
+    background-image: url(./img/section_hover/instagram.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+}
+
+.container_menu_items3:hover {
+    background-color: #f38181;
+    background-image: url(./img/section_hover/instagram-fff.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    z-index: 99;
+}
+
+/* -------------------------------contact-us---> */
+
+.contuct_us {
+    height: 670px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.head_contuct_us {
+    margin-bottom: 70px;
+    padding-top: 20px;
+}
+
+.head_contuct_us h5{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+.head_contuct_us span {
+    font-family: 'Roboto', sans-serif;
+    color: #b3b3b3;
+}
+
+.form_list {
+    width: 960px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.list {
+    width: 455px;
+    height: 52px;
+    border-radius: 5px;
+    margin-bottom: 13.6px;
+}
+
+.list1 {
+    width: 455px;
+    height: 196px;
+    border-radius: 5px;
+}
+
+.form_button_send {
+    height: 65px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: #fed136;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
